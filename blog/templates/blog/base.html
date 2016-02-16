@@ -1,0 +1,21 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <link href="{% static "css/blog.css" %}" rel="stylesheet">
+</head>
+<body>
+    <div id="content">
+        {% block content %}
+        {% endblock %}
+    </div>
+    <div id="sidebar">
+        <h2>Dave's blog</h2>
+        <p>This is Dave's blog.</p>
+        <p>Dave's: <a href="https://github.com/dwmorrison33" target="_blank">
+        <button class="btn">Github</button></a> and <a href="http://registry.jsonresume.org/63f65350" target="_blank">
+        <button class="btn">Resume</button></a></p>
+    </div>
+</body>
+</html>
