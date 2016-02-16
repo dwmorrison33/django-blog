@@ -4,8 +4,8 @@
 <head>
     <title>{% block title %}{% endblock %}</title>
     <link href="{% static "css/blog.css" %}" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine:bold&effect=fire-animation">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster&effect=ice">
 </head>
 <body>
     <div id="content">
@@ -13,7 +13,7 @@
         {% endblock %}
     </div>
     <div id="sidebar">
-        <h2>Dave's blog</h2>
+        <h2 class="font-effect-ice">Dave's blog</h2>
         <p>This is Dave's blog.</p>
         <p>Dave's: <a href="https://github.com/dwmorrison33" target="_blank">
         <button class="btn">Github</button></a> and <a href="http://registry.jsonresume.org/63f65350" target="_blank">

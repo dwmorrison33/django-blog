@@ -3,9 +3,7 @@
 {% block title %}{{ post.title }}{% endblock %}
 
 {% block content %}
-    <h1>{{ post.title }}</h1>
+    <h1 class="font-effect-fire-animation">{{ post.title }}</h1>
     <p class="date">Published {{ post.publish }} by {{ post.author }}</p>
     {{ post.body|linebreaks }}
-    <a href="https://github.com/dwmorrison33" target="_blank">
-    	<button class="btn">Back</button></a>
 {% endblock %}
