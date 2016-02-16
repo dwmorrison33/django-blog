@@ -10,14 +10,18 @@ a {
 }
 
 h1 { 
+    font-family: 'Tangerine', serif;
+    font-size: -webkit-xxx-large;
     font-weight:normal;
     border-bottom:1px solid #bbb;
     padding:0 0 10px 0;
 }
 
 h2 {
+    font-family: 'Lobster', serif;
     font-weight:normal;
     margin:30px 0 0;
+    color: #00abff;
 }
 
 #content { 
